@@ -256,8 +256,7 @@ def from_config(ctx, config_file, verbose):
               'of scale". Equations must be in python string format and '
               'return a scalar value to multiply the capital cost by. '
               'Independent variables in the equation should match the names '
-              'of the columns in the reV supply curve aggregation table. '
-              'This will not affect offshore wind LCOE.')
+              'of the columns in the reV supply curve aggregation table.')
 @click.option('--out_dir', '-o', type=STR, default='./',
               show_default=True,
               help='Directory to save aggregation summary output.')
